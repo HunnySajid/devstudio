@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/devstudio/static/css/main.305f90c2.chunk.css",
+    "main.js": "/devstudio/static/js/main.88216bd7.chunk.js",
+    "main.js.map": "/devstudio/static/js/main.88216bd7.chunk.js.map",
+    "runtime-main.js": "/devstudio/static/js/runtime-main.5209e7fa.js",
+    "runtime-main.js.map": "/devstudio/static/js/runtime-main.5209e7fa.js.map",
+    "static/js/2.47cef451.chunk.js": "/devstudio/static/js/2.47cef451.chunk.js",
+    "static/js/2.47cef451.chunk.js.map": "/devstudio/static/js/2.47cef451.chunk.js.map",
+    "static/css/3.6a352120.chunk.css": "/devstudio/static/css/3.6a352120.chunk.css",
+    "static/js/3.192e9965.chunk.js": "/devstudio/static/js/3.192e9965.chunk.js",
+    "static/js/3.192e9965.chunk.js.map": "/devstudio/static/js/3.192e9965.chunk.js.map",
+    "static/css/4.6e14a8dd.chunk.css": "/devstudio/static/css/4.6e14a8dd.chunk.css",
+    "static/js/4.f87dd0ea.chunk.js": "/devstudio/static/js/4.f87dd0ea.chunk.js",
+    "static/js/4.f87dd0ea.chunk.js.map": "/devstudio/static/js/4.f87dd0ea.chunk.js.map",
+    "index.html": "/devstudio/index.html",
+    "precache-manifest.742fe555893a976e283727d3685cbc13.js": "/devstudio/precache-manifest.742fe555893a976e283727d3685cbc13.js",
+    "service-worker.js": "/devstudio/service-worker.js",
+    "static/css/3.6a352120.chunk.css.map": "/devstudio/static/css/3.6a352120.chunk.css.map",
+    "static/css/4.6e14a8dd.chunk.css.map": "/devstudio/static/css/4.6e14a8dd.chunk.css.map",
+    "static/css/main.305f90c2.chunk.css.map": "/devstudio/static/css/main.305f90c2.chunk.css.map",
+    "static/js/2.47cef451.chunk.js.LICENSE.txt": "/devstudio/static/js/2.47cef451.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/devstudio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/FastLogo.png": "/devstudio/static/media/FastLogo.69feb01f.png",
+    "static/media/arbisoftLogo.png": "/devstudio/static/media/arbisoftLogo.32f64607.png",
+    "static/media/codeInLogo.webp": "/devstudio/static/media/codeInLogo.47a7a717.webp",
+    "static/media/contactMailDark.svg": "/devstudio/static/media/contactMailDark.51cf7192.svg",
+    "static/media/developerActivity.svg": "/devstudio/static/media/developerActivity.59389695.svg",
+    "static/media/googleAssistantLogo.webp": "/devstudio/static/media/googleAssistantLogo.e79c6392.webp",
+    "static/media/manOnTable.svg": "/devstudio/static/media/manOnTable.52be3144.svg",
+    "static/media/nextuLogo.webp": "/devstudio/static/media/nextuLogo.829ad0a1.webp",
+    "static/media/pwaLogo.webp": "/devstudio/static/media/pwaLogo.ee62cb58.webp",
+    "static/media/saayaHealthLogo.webp": "/devstudio/static/media/saayaHealthLogo.25018d29.webp",
+    "static/media/skill.svg": "/devstudio/static/media/skill.34409398.svg",
+    "static/media/TalkCard.css": "/devstudio/static/media/talksCardBack.13780cdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5209e7fa.js",
+    "static/js/2.47cef451.chunk.js",
+    "static/css/main.305f90c2.chunk.css",
+    "static/js/main.88216bd7.chunk.js"
+  ]
+}
