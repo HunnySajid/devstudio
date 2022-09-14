@@ -1,7 +1,8 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  width: 250px;
+  width: 100px !important;
+  border-radius: 50%;
 }
 .card-title {
   color: #000000;
@@ -49,7 +50,7 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: 120px;
   overflow: hidden;
   text-align: center;
 }
