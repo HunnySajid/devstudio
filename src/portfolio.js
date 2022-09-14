@@ -12,10 +12,10 @@ const greeting = {
   username: "Hunain Sajid",
   title: "Hi all, I'm Hunain",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/16DwQ_6bxvkwlHfJlhdwPwY_U-8G-qZQ2/view?usp=sharing",
+    "https://drive.google.com/file/d/1Mw0NixbvpAZxTdOcGBBSMSMtN6D3lpfn/view",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -25,10 +25,7 @@ const socialMediaLinks = {
   github: "https://github.com/HunnySajid",
   linkedin: "https://www.linkedin.com/in/HunainSajid/",
   gmail: "hunainbinsajid@gmail.com",
-  gitlab: "https://gitlab.com/hunainbinsajid",
-  facebook: "https://web.facebook.com/hunain.sajid.50/",
   medium: "https://medium.com/@hunainbinsajid",
-  stackoverflow: "https://stackexchange.com/users/11700436/hunain-sajid",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -37,13 +34,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A FULL STACK ENGINEER who can develop ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Highly interactive Front end / User Interfaces for your Web applications in React Ecosystem"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Business Logic implemetations and API Development"),
+    emoji(
+      "⚡ Cross Platform mobile apps built in React Native"
+    ),
+    emoji("⚡ Progressive Web Applications ( PWA )/ Microfrontends in normal and SPA Stacks"),
+    emoji("⚡ Business Logic implemetations and API Development in Express/Nestjs"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
@@ -70,6 +70,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-ts"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
@@ -78,8 +82,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "react native",
+      fontAwesomeClassname: "fab fa-mobile"
     },
     {
       skillName: "npm",
@@ -98,8 +102,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "mongodb",
+      fontAwesomeClassname: "fab fa-mongo"
     },
     {
       skillName: "docker",
@@ -134,12 +138,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Frontend", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Mobile Apps", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
@@ -153,7 +161,23 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   experience: [
+    {
+      role: "Senior Software Engineer",
+      company: "Retailo Technologies",
+      companylogo: require("./assets/images/retailo.png"),
+      date: "July 2021 - Present",
+      desc: "Provided technical guidance for software design and development activities for user onboarding and data collection in BNPL module. Delivered the feature 1.5 months a ahead of the schedule time.",
+      descBullets: [
+        "Defined, built, developed, and fixed new customer-facing features using React and React Native technologies, decreasing the number of errors reported by 12%.",
+        "Performed a complete codebase revamp from JavaScript to TypeScript, which improved the development experience and reduced runtime errors by 70%.",
+        "Led cross-functional engineering teams of 3 developers working on multiple functions, including a buy now, pay later (BNPL) plan, shopping cart experience, and platform optimization.",
+        "Led efforts in maintaining and updating existing mobile and web app architecture.",
+        "Headed the design system development from scratch in Storybook for React and React Native.",
+        "Dedicately working with rest apis and business logic development for Back office",
+      ]
+    },
     {
       role: "Full Stack Engineer",
       company: "Creative Chaos",
@@ -230,33 +254,133 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "MAJOR PROFESSIONAL & PERSONAL PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/retailo.png"),
+      projectName: "Retailo App",
+      projectDesc: "B2B Ordering App For Retailers Retailo is an online ordering platform for retailers to buy day-to-day inventory for their shops.",
+      footerLink: [
+        {
+          name: "Website",
+          url: "https://retailo.co/"
+        },
+        {
+          name: "App Store",
+          url: "https://apps.apple.com/app/id1607963433"
+        },
+        {
+          name: "Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.app.retailerapp&hl=en&gl=US"
+        },
+        {
+          name: "Video",
+          url: "https://drive.google.com/file/d/1kiFvdtKzBw2AkARTqwjg9I5eGuVpRx84/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      projectName: "Quiz App",
+      projectDesc: "Create Quizzes for revisions, or fun by driving theorey based Trivia",
+      footerLink: [
+        {
+          name: "Video",
+          url: "https://drive.google.com/file/d/1Z52jflz3sce4tBrp7-FW7GpPbg71GJYL/view"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/quran.jpeg"),
+      projectName: "Quranic Vocabulary",
+      projectDesc: "Shows a random word from Quran in Arabic and its English meaning on a beautiful background when user opens a new tab.",
+      footerLink: [
+        {
+          name: "Chrome Extension",
+          url: "https://chrome.google.com/webstore/detail/quranic-vocabulary/ooelkkeojgepkgkiepifoijfidomhjmg?hl=en&authuser=2"
+        }
+      ]
+    },
+    {
+      projectName: "Dev Studio",
+      projectDesc: "A clean, beautiful and responsive portfolio template for Developers",
+      footerLink: [
+        {
+          name: "website",
+          url: "https://hunnysajid.github.io/"
+        },
+        {
+          name: "github",
+          url: "https://github.com/HunnySajid/devstudio"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/litterati.png"),
+      projectName: "Litterati Open Data",
+      projectDesc: "Empower people to collect Litter Data & to empower people with access to that data so that anyone can help to create a litter-free world",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://opendata.litterati.org/"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/litterati.png"),
+      projectName: "Litterati Backoffice",
+      projectDesc: "Empowering people to create a cleaner planet by turning information into actionable insight.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.litterati.org/"
+        },
+        {
+          name: 'Video',
+          url: "https://drive.google.com/file/d/18tYh_AAvf8gEyf5fe2BsPiKbacmk5-pu/view"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/arbisoftLogo.png"),
+      projectName: "HRIS | Workstream",
+      projectDesc: "An enterprise management tool designed for organizations to manage all the core components of its business.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://arbisoft.com/solutions/hris/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/mprep.jpeg"),
+      projectName: "Mastery Prep | Backoffice",
+      projectDesc: "MasteryPrep is the ideal test prep program for schools looking to help their students achieve higher scores on the ACT, SAT, and more!",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://arbisoft.com/solutions/hris/"
+        },
+        {
+          name: 'Video',
+          url: 'https://drive.google.com/file/d/1mHEsInZxCaUkwbulGdAqR3I71m4cBf-e/view'
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/cubixLogo.png"),
+      projectName: "Timeforge",
+      projectDesc: "A thrilling roleplay game for shooting enthusiasts and gaming lovers",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.cubix.co/work/time-forge"
+        }
+      ]
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -330,20 +454,27 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://devpub.hashnode.dev/useimperativehandle-react-hook-explained",
+      title: "useImperativeHandle React Hook Explained!",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A way to trigger a change in a child from its parent component"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url:
+        "https://devpub.hashnode.dev/how-to-manage-a-node-version-within-a-specific-project",
+      title: "How to manage a node version within a specific project?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "A way to use node version variants in different projects via nvm"
+    },
+    {
+      url:
+        "https://devpub.hashnode.dev/what-the-heck-is-node-js-12ae5639d22f",
+      title: "What the heck is Node.js?",
+      description:
+        "Minimalist's introduction to Node js"
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
